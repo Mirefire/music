@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+.music-layout{
+    position: fixed;
+    top: 53px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.music-left-animation{ 
+    height: 100%;
+    width: 100%;
+}
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.component-fade-enter,
+.component-fade-leave-to {
+  opacity: 0;
+}
+.rightavite{
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid rgb(198, 47, 47);
+    color: rgb(198,47,47);
+}
+.menu-tabs{
+    display: -webkit-flex; 
+    display: flex;	
+    /* for uc */
+    display: -webkit-box; 
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+}
+.menu-tabs-items{
+    -ms-flex: 1; /* IE 10 */
+    -webkit-flex: 1; 
+    flex: 1; 
+    /* for uc */
+    -webkit-box-flex: 1; 
+    -moz-box-flex: 1; 
+    -ms-flex: 1;
+}
+/* .left-mian:hover .music-left-animation {
+    left: 0;
+} */

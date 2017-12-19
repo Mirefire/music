@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.electron-vue",
+    "\\src",
+    "\\src\\main",
+    "\\src\\renderer",
+    "\\src\\renderer\\components",
+    "\\src\\renderer\\router",
+    "\\test"
+  ],
+  "SelectedNode": "\\src\\renderer\\components\\index.vue",
+  "PreviewInSolutionExplorer": false
+}
